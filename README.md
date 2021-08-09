@@ -1,5 +1,6 @@
 # Cryptographic hashing functions for Dart
 A set of cryptographic hashing functions implemented in pure Dart
+In sound null satety version.
 
 The following hashing algorithms are supported:
 * MD5
@@ -15,7 +16,10 @@ The following hashing algorithms are supported:
 Add this to your package's pubspec.yaml file:
 ```yaml
 dependencies:
-  hash: ^1.0.1
+  hash:
+    git:
+      url: git://github.com/olgeer/hash.git
+      ref: main
 ```
 
 
